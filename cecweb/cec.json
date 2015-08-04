@@ -9,11 +9,7 @@
 					"name": "jumbotron",
 					"type": "jumbotron",
 					"dest_position": "before",
-					"components": [{
-						"name": "jumbotron_image",
-						"type": "jumbotron",
-						"image_url": "images/cecjumbotron.svg",
-					},
+					"components": [
 					{
 						"name": "jumbotron_content",
 						"type": "custom_component",

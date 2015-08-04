@@ -28,6 +28,22 @@ Template.HomeJumbotron.helpers({
 	
 });
 
+Template.HomeJumbotronImage.rendered = function() {
+	
+};
+
+Template.HomeJumbotronImage.events({
+	"click #jumbotron-button": function(e, t) {
+		e.preventDefault();
+		Router.go("", {});
+	}
+	
+});
+
+Template.HomeJumbotronImage.helpers({
+	
+});
+
 Template.HomeJumbotronContent.events({
 
 });

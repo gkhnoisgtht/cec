@@ -1,7 +1,6 @@
 .jumbotron {
 	text-align: center;
 	color: black;
-	background-size: 100% 100%;
 }
 
 .jumbotron h1 {
@@ -20,7 +19,6 @@ section {
 
 section.bg-blue {
 	color: #fff;
-	#background-color: #337ab7;
 	background-color: #0085c7;	
 }
 

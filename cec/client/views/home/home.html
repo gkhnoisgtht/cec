@@ -11,16 +11,27 @@
 </template>
 
 <template name="HomeJumbotron">
-	<div class="jumbotron " style="background-image: url('/images/cecjumbotron.svg');">
+	<div class="jumbotron ">
 		<div id="content" class="container">
 			<p id="jumbotron-text">
 			</p>
-			{{> HomeJumbotronContent}}
+			{{> HomeJumbotronImage}}{{> HomeJumbotronContent}}
+		</div>
+	</div>
+</template>
+
+<template name="HomeJumbotronImage">
+	<div class="jumbotron " style="background-image: url('images/cecjumbotron.svg');">
+		<div id="content" class="container">
+			<p id="jumbotron-text">
+			</p>
 		</div>
 	</div>
 </template>
 
 <template name="HomeJumbotronContent">
+	<h1 id="section-welcome">
+	</h1>
 	<div class="row text-center">
 		<div class="col-md-4">
 			<span class="fa-stack fa-4x">
@@ -94,7 +105,7 @@
 </template>
 
 <template name="HomeSection1" id="section1">
-	<section class="">
+	<section class="bg-blue">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12" id="content">
@@ -106,14 +117,11 @@
 </template>
 
 <template name="HomeContent1">
-	{{#markdown}}
-<h1 id="section1">Services</h1>
-
-{{/markdown}}
+	{{#markdown}}<h1 id="section1">Services</h1>{{/markdown}}
 </template>
 
 <template name="HomeSection2" id="section2">
-	<section class="bg-blue">
+	<section class="">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12" id="content">
@@ -126,7 +134,7 @@
 
 <template name="HomeContent2">
 	{{#markdown}}
-<h1 id="section2">About</h1>
+<h1 id="section2">About Us</h1>
 <b>Hiring the right employee is the cornerstone of a company’s foundation!</b>
 <ul>
 <li>Know who you are hiring - Verify identity</li>
@@ -179,8 +187,8 @@ For more information please contact: Kim Stadler at kim.stadler@completeemployme
 			<div class="alert alert-warning">
 				{{errorMessage}}
 			</div>
-			{{/if}}		
-		
+			{{/if}}				
+				
 			{{#if infoMessage}}
 			<div class="alert alert-success">
 				{{infoMessage}}

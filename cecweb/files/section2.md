@@ -1,5 +1,5 @@
 
-<h1 id="section2">About</h1>
+<h1 id="section2">About Us</h1>
 <b>Hiring the right employee is the cornerstone of a company’s foundation!</b>
 <ul>
 <li>Know who you are hiring - Verify identity</li>

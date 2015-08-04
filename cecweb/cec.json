@@ -9,8 +9,12 @@
 					"name": "jumbotron",
 					"type": "jumbotron",
 					"dest_position": "before",
-					"image_url": "/images/cecjumbotron.svg",
 					"components": [{
+						"name": "jumbotron_image",
+						"type": "jumbotron",
+						"image_url": "images/cecjumbotron.svg",
+					},
+					{
 						"name": "jumbotron_content",
 						"type": "custom_component",
 						"custom_template": "files/three_columns.html"
@@ -20,17 +24,17 @@
 					"name": "section1",
 					"type": "section",
 					"dest_position": "before",
+					"class": "bg-blue",
 					"components": [{
 						"name": "content1",
 						"type": "markdown",
 						"source_file": "files/section1.md"
-				        }]
+					}]
 				},
 				{
 					"name": "section2",
 					"type": "section",
 					"dest_position": "before",
-					"class": "bg-blue",
 					"components": [{
 						"name": "content2",
 						"type": "markdown",

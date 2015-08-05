@@ -1,14 +1,9 @@
 
 <h1 id="section2">About Us</h1>
-<b>Hiring the right employee is the cornerstone of a company’s foundation!</b>
+<p>Our company employment screening services are designed to help you completely understand who you are hiring or doing business with.</p>
 <ul>
-<li>Know who you are hiring - Verify identity</li>
-
-<li>Provide a safe work environment for your company</li>
-
-<li>Avoid lawsuits –  a background check can reveal history of improper behavior</li>
-
-<li>Verification of resume history</li>
-
-<li>Reduce employee turnover</li>
+<li><b>Current Data</b> - for you to make an informed hiring decision</li>
+<li><b>Security</b> - reduce changes of lawsuit and promot a safe work environment</li>
+<li><b>Decrease</b> - employee turnover</li>
+<li><b>Speed</b> - quick turnaround times for results</li>
 </ul>

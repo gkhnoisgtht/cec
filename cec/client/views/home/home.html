@@ -15,34 +15,33 @@
 		<div id="content" class="container">
 			<p id="jumbotron-text">
 			</p>
-			{{> HomeJumbotronContent}}
+			{{> Three_Columns}}
 		</div>
 	</div>
 </template>
 
-<template name="HomeJumbotronContent">
-	<h1 id="section-welcome">
+<template name="Three_Columns">
+	<h1 id="columns">
 	</h1>
 	<div class="row text-center">
 		<object data="/images/cecjumbotron.svg" type="image/svg+xml">
-			<img src="yourfallback.jpg" />
 		</object>
 	</div>
 	<div class="row text-center">
 		<div class="col-md-4">
 			<span class="fa-stack fa-4x">
-				<i class="fa fa-square fa-stack-2x text-primary">
+				<i class="fa fa-stop fa-stack-2x text-primary">
 				</i>
 				<i class="fa fa-search fa-stack-1x fa-inverse">
 				</i>
 			</span>
 			<p>
-				Verify identity know who you are hiring
+				Know who you are hiring - Verify identity
 			</p>
 		</div>
 		<div class="col-md-4">
 			<span class="fa-stack fa-4x">
-				<i class="fa fa-square fa-stack-2x text-primary">
+				<i class="fa fa-stop fa-stack-2x text-primary">
 				</i>
 				<i class="fa fa-check fa-stack-1x fa-inverse">
 				</i>
@@ -53,20 +52,20 @@
 		</div>
 		<div class="col-md-4">
 			<span class="fa-stack fa-4x">
-				<i class="fa fa-square fa-stack-2x text-primary">
+				<i class="fa fa-stop fa-stack-2x text-primary">
 				</i>
 				<i class="fa fa-university fa-stack-1x fa-inverse">
 				</i>
 			</span>
 			<p>
-				Avoid lawsuits a background check can reveal history of improper behavior
+				Avoid lawsuits - a background check can reveal history of improper behaviour
 			</p>
 		</div>
 	</div>
 	<div class="row text-center">
 		<div class="col-md-4">
 			<span class="fa-stack fa-4x">
-				<i class="fa fa-square fa-stack-2x text-primary">
+				<i class="fa fa-stop fa-stack-2x text-primary">
 				</i>
 				<i class="fa fa-archive fa-stack-1x fa-inverse">
 				</i>
@@ -77,7 +76,7 @@
 		</div>
 		<div class="col-md-4">
 			<span class="fa-stack fa-4x">
-				<i class="fa fa-square fa-stack-2x text-primary">
+				<i class="fa fa-stop fa-stack-2x text-primary">
 				</i>
 				<i class="fa fa-sign-out fa-stack-1x fa-inverse">
 				</i>
@@ -88,13 +87,13 @@
 		</div>
 		<div class="col-md-4">
 			<span class="fa-stack fa-4x">
-				<i class="fa fa-square fa-stack-2x text-primary">
+				<i class="fa fa-stop fa-stack-2x text-primary">
 				</i>
 				<i class="fa fa-building-o fa-stack-1x fa-inverse">
 				</i>
 			</span>
 			<p>
-				Hiring the right employee is the cornerstone
+				Hiring the right employee is the cornerstone of a company's foundation
 			</p>
 		</div>
 	</div>
@@ -113,7 +112,36 @@
 </template>
 
 <template name="HomeContent1">
-	{{#markdown}}<h1 id="section1">Services</h1>{{/markdown}}
+	{{#markdown}}<h1 id="services">Services</h1>
+<ul>
+	<li>BCI - State of Ohio Electronic Fingerprinting</li>
+	<li>FBI Electronic Fingerprinting</li>
+	<li>Mobile Fingerprinting unit Available \*</li>
+	<li>Standard Background Check \*\*</li>
+	<li>A La Carte Items:</li>
+	<ul>
+		<li>Education Verification</li>
+		<li>Employment Verification</li>
+		<li>Motor Vehicle Report \*\*\*</li>
+		<li>Validated Criminal Database using Former Last Name</li>
+		<li>Business Credit Report</li>
+		<li>Civil Record \*\*\*\* </li>
+		<li>I9 & E-Verify</li>
+		<li>Bankruptcies, Liens & Judgements</li>
+		<li>Professional License Verification</li>
+		<li>Personal/Professional Referense Verification</li>
+		<li>DOT Employment Verification</li>
+		<li>Medical Fraud & Abuse</li>
+		<li>Drug Testing Cup 10 Panel +AT (non DOT)</li>
+		<li>Drug Testing Oral 10 Panel (non DOT)</li>
+	</ul>
+</ul>
+<dl>
+<dt><sub>\* Mobile Fingerprinting Service Available - Call for more information</sub></dt>
+<dt><sub>\*\* Standard Background Check includes Validated Criminal Database/Validated Nationwide Sex Offender/Validated Dept. Of Correction/Unlimited Single County Searches (7 year address history/SSN Verification w/Address History/Government Sanctions ( Terrorist Searches )</sub></dt>
+<dt><sub>\*\*\* Motor Vehicle Report + State Fees ( Varies from state to state )</sub></dt>
+<dt><sub>\*\*\*\* Per state charge applies ( Has to be ran with standard background check )</sub></dt>
+</dl>{{/markdown}}
 </template>
 
 <template name="HomeSection2" id="section2">
@@ -130,19 +158,14 @@
 
 <template name="HomeContent2">
 	{{#markdown}}
-<h1 id="section2">About Us</h1>
-<b>Hiring the right employee is the cornerstone of a company’s foundation!</b>
-<ul>
-<li>Know who you are hiring - Verify identity</li>
+<h1 id="about">About Us</h1>
 
-<li>Provide a safe work environment for your company</li>
-
-<li>Avoid lawsuits –  a background check can reveal history of improper behavior</li>
-
-<li>Verification of resume history</li>
-
-<li>Reduce employee turnover</li>
-</ul>
+<p>
+At Complete Employment Check our mission is to help you completely understand who you are considering hiring or doing business with. To provide the necessary information to help you make an informed decision. To help you to forge a strong foundation for your company by reducing liability, decreasing employee turnover while protesting your assets and promoting a safe work environment.
+</p>
+<p>
+We have state of the art electronic scanning fingerprint equipment: In coordination with the Ohio Bureau of Criminal Identification & Investigation. WebCheck(tm) system - we are able to provide a new means of conducting criminal background checks in the State of Ohio. We are also able to provide Federal Bureau of Investigation background checks in the State of Ohio mandated background check. More and more industries today are requiring fingerprints as their background check process.
+</p>
 {{/markdown}}
 </template>
 
@@ -160,7 +183,7 @@
 
 <template name="HomeContentContact">
 	{{#markdown}}
-<h1 id="section3">Contact Us</h1>
+<h1 id="contact">Contact Us</h1>
 
 <b>Complete Employment Check</b>
 
@@ -168,7 +191,7 @@
 Dayton, OH  45458
 
 937-203-5896 – Office
-i937-688-5896 – Fax
+937-688-2011 – Fax
 
 For more information please contact: Kim Stadler at kim.stadler@completeemploymentcheck.com
 

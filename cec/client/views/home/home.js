@@ -28,11 +28,11 @@ Template.HomeJumbotron.helpers({
 	
 });
 
-Template.HomeJumbotronContent.events({
+Template.Three_Columns.events({
 
 });
 
-Template.HomeJumbotronContent.helpers({
+Template.Three_Columns.helpers({
 
 });
 

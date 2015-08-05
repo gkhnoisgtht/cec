@@ -1,5 +1,5 @@
 
-<h1 id="section3">Contact Us</h1>
+<h1 id="contact">Contact Us</h1>
 
 <b>Complete Employment Check</b>
 

@@ -31,3 +31,7 @@ section h1 {
 section .large-icon {
 	font-size: 72px;
 }
+
+.fa {
+	color:  #0085c7;
+}

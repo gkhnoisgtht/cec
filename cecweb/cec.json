@@ -38,10 +38,31 @@
 					}]
 				},
 				{
-					"name": "section_contact",
+					"name": "section3",
 					"type": "section",
 					"dest_position": "before",
 					"class": "bg-blue",
+					"components": [{
+						"name": "content3",
+						"type": "markdown",
+						"source_file": "files/section3.md"
+						},
+						{
+						"name": "content4",
+						"type": "markdown",
+						"source_file": "files/section4.md"
+						},
+						{
+						"name": "content5",
+						"type": "markdown",
+						"source_file": "files/section5.md"
+					}]
+				},
+				{
+					"name": "section_contact",
+					"type": "section",
+					"dest_position": "before",
+
 					"components": [{
 						"name": "content_contact",
 						"type": "markdown",
@@ -88,7 +109,11 @@
 					"url": "#services"
 				},
 				{
-					"title": "About",
+					"title": "More Information",
+					"url": "#section3"
+				},
+				{
+					"title": "About Us",
 					"url": "#about"
 				},
 				{

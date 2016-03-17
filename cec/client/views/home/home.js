@@ -54,6 +54,17 @@ Template.HomeSection2.helpers({
 });
 
 
+Template.HomeSection3.events({
+
+});
+
+Template.HomeSection3.helpers({
+
+});
+
+
+
+
 Template.HomeSectionContact.events({
 
 });

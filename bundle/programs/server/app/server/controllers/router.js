@@ -1,0 +1,5 @@
+(function(){Router.map(function () {
+
+});
+
+})();

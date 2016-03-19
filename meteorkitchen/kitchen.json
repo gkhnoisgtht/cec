@@ -62,8 +62,9 @@
 				}],
 				"template_rendered_code": "$('section, .jumbotron').css('min-height', $(window).height() + 'px'); window.scrollTo(0, 0);"
 			}],
-			"menus": [{
+			"components": [{
 				"name": "main_menu",
+				"type": "menu",
 				"class": "nav navbar-nav dropdown-menu-right",
 				"scroll_spy_selector": "body",
 				"items": [{

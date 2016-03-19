@@ -46,7 +46,7 @@
 						"name": "content_contact",
 						"type": "markdown",
 						"source_file": "files/contact.md"
-					}]]
+					}]
 				}],
 				"template_rendered_code": "$('section, .jumbotron').css('min-height', $(window).height() + 'px'); window.scrollTo(0, 0);"
 			}],

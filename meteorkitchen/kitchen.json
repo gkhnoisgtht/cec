@@ -46,6 +46,18 @@
 						"name": "content_contact",
 						"type": "markdown",
 						"source_file": "files/contact.md"
+					},
+					{
+						"name": "contact",
+						"type": "form",
+						"mode": "insert",
+						"fields": [
+							{ "name": "name", "title": "Your name", "required": true },
+							{ "name": "email", "title": "Your e-mail", "type": "email", "required": true },
+							{ "name": "message", "title": "Message", "input": "textarea", "required": true }
+						],
+						"submit_button_title": "Send",
+						"submit_code": "Meteor.call('sendMail', { from: values.email, to: 'info@completeemploymentcheck.com', subject: 'Message from ' + values.name, text: values.message }, function(e) {  if(e) errorAction(e.message); else submitAction('Your message is sent. Thank you for contacting us! :)'); } );"
 					}]
 				}],
 				"template_rendered_code": "$('section, .jumbotron').css('min-height', $(window).height() + 'px'); window.scrollTo(0, 0);"

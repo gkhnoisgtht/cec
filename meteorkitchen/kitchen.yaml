@@ -1,0 +1,74 @@
+﻿---
+  application: 
+    footer_text: "Copyright &copy; Complete Employment Check 2015"
+    theme: "bootswatch-spacelab"
+    free_zone: 
+      pages: 
+        - 
+          name: "home"
+          components: 
+            - 
+              name: "jumbotron"
+              type: "jumbotron"
+              dest_position: "before"
+              components: 
+                - 
+                  name: "jumbotron_content"
+                  type: "custom_component"
+                  custom_template: "files/three_columns.html"
+            - 
+              name: "section1"
+              type: "section"
+              dest_position: "before"
+              class: "bg-blue"
+              components: 
+                - 
+                  name: "content1"
+                  type: "markdown"
+                  source_file: "files/services.md"
+            - 
+              name: "section2"
+              type: "section"
+              dest_position: "before"
+              components: 
+                - 
+                  name: "content2"
+                  type: "markdown"
+                  source_file: "files/about.md"
+            - 
+              name: "section_contact"
+              type: "section"
+              dest_position: "before"
+              class: "bg-blue"
+              components: 
+                - 
+                  name: "content_contact"
+                  type: "markdown"
+                  source_file: "files/contact.md"
+          template_rendered_code: "$('section, .jumbotron').css('min-height', $(window).height() + 'px'); window.scrollTo(0, 0);"
+      menus: 
+        - 
+          name: "main_menu"
+          class: "nav navbar-nav dropdown-menu-right"
+          scroll_spy_selector: "body"
+          items: 
+            - 
+              title: "Home"
+              url: "#columns"
+              icon_class: "fa fa-home"
+            - 
+              title: "Services"
+              url: "#services"
+            - 
+              title: "About"
+              url: "#about"
+            - 
+              title: "Contact"
+              url: "#contact"
+    copy_files: 
+      - 
+        source: "files/styles.css"
+        dest: "CLIENT_STYLES_DIR/styles.css"
+      - 
+        source: "files/cecjumbotron.svg"
+        dest: "PUBLIC_IMAGES_DIR/cecjumbotron.svg"

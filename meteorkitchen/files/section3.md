@@ -1,14 +1,27 @@
 
-<h1 id="section3">Contact Us</h1>
+<h1 id="section3">More Information</h1>
 
-<b>Complete Employment Check</b>
+<p>Who can have a BCI&I background check?
+<ul>
+<li>Anyone</li>
+<li>For any reason</li>
+<li>Results can be mailed anywhere</li>
+</ul>
+</p>
 
-10554 Success Lane Suite E
-Dayton, OH  45458
 
-937-203-5896 – Office
-937-688-2011 – Fax
+<p>Who can have a FBI background check? 
+<ul>
+<li>Must be a State of Ohio mandated background check</li>
+<li>People working with children</li>
+<li>People working with the elderly</li>
+<li>People working in the DoD field</li>
+<li>Nurses</li>
+<li>Firefighters/EMT</li>
+<li>Pharmacy Technicians</li>
+</ul>
+</p>
 
-For more information please contact: Kim Stadler at kim.stadler@completeemploymentcheck.com
+<p>State of Ohio licensing that requires an FBI background check: Results must be send directly to the State Board</p>
 
 

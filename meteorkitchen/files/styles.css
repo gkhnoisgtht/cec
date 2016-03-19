@@ -35,3 +35,13 @@ section .large-icon {
 .fa {
 	color:  #0085c7;
 }
+
+.tables {
+    -webkit-columns: 100px 2; /* Chrome, Safari, Opera */
+    -moz-columns: 100px 2; /* Firefox */
+    columns: 100px 2;
+}
+
+.links{
+	color: #fff;
+}
